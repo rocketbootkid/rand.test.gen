@@ -1,0 +1,60 @@
+<features>
+	<feature name="Navigate to Data Source">
+		<following>
+			<ff>Profile Data Source</ff>
+			<ff>Import Data Source</ff>
+			<ff>Add New Data Source</ff>
+		</following>
+		<options>
+			<option>Data Table 1</option>
+			<option>Data Table 2</option>
+			<option>Data Table 3</option>
+			<option>Data Table 4</option>
+			<option>Data Table 5</option>
+			<option>Data Table 6</option>
+			<option>Data Table 7</option>
+			<option>Data Table 8</option>
+		</options>
+	</feature>
+	<feature name="Profile Data Source">
+		<following>
+			<ff>Navigate to Data Source</ff>
+			<ff>Import Data Source</ff>
+			<ff>Add New Data Source</ff>
+		</following>
+		<options>
+			<option>Quick Profile</option>
+			<option>Normal Profile</option>
+		</options>
+	</feature>
+	<feature name="Import Data Source">
+		<following>
+			<ff>Navigate to Data Source</ff>
+			<ff>Add New Data Source</ff>
+		</following>
+		<options>
+			<option>File|CSV</option>
+			<option>File|XLSX</option>
+			<option>File|TXT</option>
+			<option>Social Media|Facebook</option>
+			<option>Social Media|Twitter</option>
+			<option>Social Media|Google Analytics</option>
+		</options>
+	</feature>
+	<feature name="Add New Data Source">
+		<following>
+			<ff>Navigate to Data Source</ff>
+			<ff>Import Data Source</ff>
+		</following>
+		<options>
+			<option>File|DNFS</option>
+			<option>File|Hadoop Hive</option>
+			<option>File|HDFS</option>
+			<option>File|S3</option>
+			<option>Database|DB2</option>
+			<option>Database|Oracle</option>
+			<option>Database|PostgreSQL</option>
+			<option>Database|Teradata</option>
+		</options>
+	</feature>
+</features>
